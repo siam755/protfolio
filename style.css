@@ -595,9 +595,9 @@ h2 {
     border-radius: 20px;
     overflow: hidden;
     transition: transform 0.3s;
-    flex: 1 1 calc(50% - 20px); /* Two items per row, with a gap */
+    flex: 1 1 calc(50% - 20px); 
     margin-bottom: 20px;
-    max-width: calc(50% - 20px); /* Ensures two items per row */
+    max-width: calc(50% - 20px); 
     height: 400px;
 }
 
@@ -690,7 +690,7 @@ button {
     padding: 15px;
     border: none;
     border-radius: 5px;
-    background-color: white; /* Green button */
+    background-color: white; 
     color: black;
     font-size: 18px;
     cursor: pointer;
@@ -729,5 +729,5 @@ button:hover {
 }
 
 .social-media a:hover {
-    color: #4caf50; /* Hover color change */
+    color: #4caf50; 
 }
